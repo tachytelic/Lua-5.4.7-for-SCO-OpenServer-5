@@ -164,21 +164,6 @@ toolchain/                SCO cross-compile infrastructure
   sco_compat.h            Header shims (ctype macros, _VA_LIST)
 ```
 
-## Connecting to old SCO from modern OpenSSH
-
-The SCO sshd is OpenSSH 4.3 — too old for OpenSSH 9+ defaults:
-
-```bash
-ssh -o KexAlgorithms=+diffie-hellman-group14-sha1 \
-    -o HostKeyAlgorithms=+ssh-rsa \
-    -o PubkeyAcceptedAlgorithms=+ssh-rsa \
-    root@your-sco-host
-```
-
-Note: `PubkeyAcceptedKeyTypes` was renamed to `PubkeyAcceptedAlgorithms`
-in OpenSSH 8.5; the old name is silently ignored on modern clients
-(which makes for a fun debugging session).
-
 ## License
 
 The Lua language and the bundled `prebuilt/lua` binary are © 1994-2024
