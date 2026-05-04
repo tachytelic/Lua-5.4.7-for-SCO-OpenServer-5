@@ -1,0 +1,14 @@
+# Build artifacts
+obj/
+lua_sco
+*_base
+*.o
+
+# Lua source (downloaded by build.sh)
+lua-*/
+lua-*.tar.gz
+
+# Editor / OS
+*.swp
+*~
+.DS_Store
