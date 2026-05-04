@@ -26,7 +26,7 @@ the works.
 ## Install
 
 > **Fresh SCO box?** Install [curl with TLS](https://github.com/tachytelic/curl-7.88.1-for-SCO-OpenServer-5)
-> first — that's the only file that needs to be transferred via `scp`/USB.
+> first — that's the only file that needs to be transferred via `scp`.
 > After that, every release on tachytelic/* (including this one) fetches
 > over HTTPS from GitHub.
 
