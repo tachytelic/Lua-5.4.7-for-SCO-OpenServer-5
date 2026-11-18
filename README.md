@@ -169,7 +169,7 @@ released under the MIT license — see [LICENSE](LICENSE).
 ## See also
 
 If you're keeping a SCO OpenServer 5 box alive, head over to
-[tachytelic.net's SCO OpenServer 5 binaries page](https://tachytelic.net/2017/07/sco-openserver-5-binaries/)
+[tachytelic.net's SCO OpenServer 5 binaries page](https://scoexpert.com/guides/sco-openserver-5-binaries/)
 — it collects other compiled software for the platform (bash, rsync,
 tar, wget, lzop, …) along with notes on running these systems day to
 day.
